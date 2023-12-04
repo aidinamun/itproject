@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 1024px) {
+    .hero-content h1 {
+        text-align: center;
+        margin-top: -40px;
+    }
+}
+@media (max-width: 768px) {
+    .buttons {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+   
+}
+@media (max-width: 481px) {
+    
+}
+@media (max-width: 320px) {
+   
+} 

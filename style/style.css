@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   background: #0A1128;
+}
+.container {
+   max-width: 1220px;
+   margin: 0 auto;
+   width: 100%;
+   padding: 0 20px;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+}
+.nav-links {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+.links {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+.links a {
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+}
+.buttons {
+   display: flex;
+   gap: 20px;
+}
+.sign-in {
+   background: none;
+   border: none;
+   color: white;
+   font-weight: 500;
+}
+.subscribe {
+   padding: 13px 48px;
+   border-radius: 5px;
+   background: #034078;
+   border: none;
+   color: white;
+}
+.burger-menu {
+   display: none;
+   padding-top: 10px;
+}
+.burger-menu span {
+   color: white;
+   font-size: 55px;
+}
+.hero {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.hero-content h1 {
+   color: white;
+   font-size: 48px;
+   font-weight: 700;
+   max-width: 516px;
+}
+.hero-content p {
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+   max-width: 360px;
+   margin-top: 30px;
+}
+.men img {
+   padding-top: 80px;
+}
+.game1 {
+   position: absolute;
+   margin-left: -378px;
+   margin-top: -240px;
+}
+.game2 {
+   position: absolute;
+   margin-left: -540px;
+   margin-top: -47px;
+}
+.game3 {
+   position: absolute;
+   margin-left: -360px;
+   margin-top: 140px;
+}
+
